@@ -1,0 +1,114 @@
+body {
+  background-color: #d3d3d3;
+  background-image: url(img/Background..jpg);
+  background-size: cover;
+  margin: 0;
+  font-style: italic;
+}
+
+img {
+  height: 60px;
+  width: 60px;
+}
+
+img.picture {
+  margin: 0 0 0 20.8%;
+  height: 500px;
+  width: 500px;
+
+}
+
+div.button {
+  height: 60px;
+  width: 60px;
+  margin: 0;
+  box-shadow: 6px 6px;
+  transition: box-shadow 0.3s ease-in-out, background-image 0.3s ease-in-out;
+  background-image: url(img/house.png);
+  background-size: cover;
+}
+
+div.button:hover {
+  box-shadow: 0px 0px;
+  background-image: url(img/house-2.png);
+}
+
+div.up {
+  height: 75%;
+  width: 50%;
+  margin: 70px 500px;
+  background-color: bisque;
+  font-family: Trebuchet MS, sans-serif;
+}
+
+div.medium {
+  padding-top: 20px;
+  margin: 50px;
+}
+
+div.down {
+  padding: 4% 20%;
+  display: inline-block;
+  font: bold 40px/60px "URW Chancery L", cursive; 
+  letter-spacing: 1px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  height: 60px;
+  width: 210px;
+  display: inline-block;
+  background-color: #fff;
+  margin: 20px 0px 40px 18%;
+  cursor: pointer;
+}
+
+a.button-2 {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+
+}
+
+p {
+  font-size: 22px;
+  text-align: justify;
+  font-weight: 500;
+}
+
+ol {
+  font-size: 22px;
+}
+
+.name, .email {
+  transition: opacity 0.3s;
+  padding: 0 0 0 3px;
+}
+
+.name:hover, .email:hover {
+  opacity: 0.5;
+}
+
+.email {
+  text-decoration: none;
+  color: #d3d3d3;
+}
+
+.email:hover {
+  color: #00f;
+}
+
+.name:hover {
+  cursor: pointer;
+  color: #f40;
+}
+
+.text {
+  text-align: center;
+  margin-top: 20%;
+  font-style: italic;
+  font: bold 80px/60px "URW Chancery L", cursive;
+  color: darkblue;
+}
